@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\app.csproj": {}
+    "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\app.csproj": {
+    "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\app.csproj",
+        "projectUniqueName": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\app.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\obj\\",
+        "projectPath": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\app.csproj",
+        "packagesPath": "C:\\Users\\TRUNG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\TRUNG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
