@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using app.Models;
-using app.Controllers;
 using app.Services;
 using Microsoft.EntityFrameworkCore;
 namespace app.Services;

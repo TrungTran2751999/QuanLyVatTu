@@ -11,7 +11,9 @@ using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("connectString")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("connectStringQLVT")));
+builder.Services.AddDbContext<ApplicationDbContextUsers>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("connectStringHueWACODB")));
 
 // builder.Services.AddDbContext<ApplicationDbContextMySQl>(options =>
 //     options.builder.Configuration.GetConnectionString("connectStringMySql")));

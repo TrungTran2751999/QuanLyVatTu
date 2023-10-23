@@ -1,9 +1,10 @@
-using app.Controllers;
 using app.Models;
 using app.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+
+namespace app.Controllers;
 
 [ApiController]
 [Route("api/nhom-vat-tu")]
