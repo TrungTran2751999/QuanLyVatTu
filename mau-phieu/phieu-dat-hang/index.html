@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <meta charset="UTF-8">
+        <table border="0" cellspacing="0" cellpadding="0" width="695">
+            <tbody>
+                <tr>
+                    <td width="288" valign="top">
+                        <p align="center">
+                            <strong>CÔNG TY CỔ PHẦN    CẤP NƯỚC THỪA THIÊN HUẾ</strong>
+                        </p>
+                    </td>
+                    <td width="407" valign="top">
+                        <p align="center">
+                            <strong>
+                                CỘNG HÒA XÃ HỘI    CHỦ NGHĨA VIỆT NAM Độc lập – Tự do –
+                                Hạnh phúc
+                            </strong>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p align="center">
+            <strong>PHIẾU ĐẶT HÀNG</strong>
+        </p>
+        <p align="center">
+            <strong>Số:</strong>
+        </p>
+        <p align="center">
+            <strong>Kính gửi:</strong>
+        </p>
+        <p>
+            Công ty Cổ phần cấp nước  Thừa Thiên Huế có nhu cầu đặt hàng theo quý công
+            ty theo mẫu yêu cầu
+        </p>
+        <p>
+            Nội dung đặt hàng như  sau:
+        </p>
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <td width="89" valign="top">
+                        <p align="center">
+                            <strong>STT</strong>
+                        </p>
+                    </td>
+                    <td width="89" valign="top">
+                        <p align="center">
+                            <strong>Tên    vật tư, hàng hóa</strong>
+                        </p>
+                    </td>
+                    <td width="89" valign="top">
+                        <p align="center">
+                            <strong>Đơn    vị tính</strong>
+                        </p>
+                    </td>
+                    <td width="89" valign="top">
+                        <p align="center">
+                            <strong>Số    lượng</strong>
+                        </p>
+                    </td>
+                    <td width="89" valign="top">
+                        <p align="center">
+                            <strong>Đơn    giá</strong>
+                        </p>
+                    </td>
+                    <td width="89" valign="top">
+                        <p align="center">
+                            <strong>Thành    tiền</strong>
+                        </p>
+                    </td>
+                    <td width="89" valign="top">
+                        <p align="center">
+                            <strong>Ghi    chú</strong>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                </tr>
+                <tr>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                    <td width="89" valign="top">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            <strong>Tổng cộng:</strong>
+        </p>
+        <p>
+            <strong>Thời gian giao hàng:</strong>
+        </p>
+        <p>
+            <strong>Địa điểm giao hàng:</strong>
+        </p>
+        <p>
+            <strong>Phương thức thanh toán:</strong>
+        </p>
+        <p>
+            - Thanh toán bằng tiền mặt  hoặc chuyển khoản
+        </p>
+        <p>
+            - Thanh toán trước… giá  trị hợp đồng, phần còn lại thanh toán sau khi giao
+            hàng.
+        </p>
+        <p>
+            Huế, ngày 19  tháng 05 năm 2023
+        </p>
+        <p>
+            <strong>Giám đốc công ty</strong>
+        </p>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js"></script>
+<script src="https://unpkg.com/html-docx-js/dist/html-docx.js"></script>
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+<script>
+    function convertHtmlToWord(htmlContent, fileName) {
+        const converted = htmlDocx.asBlob(htmlContent);
+        saveAs(converted, fileName + ".docx");
+    }
+    let table = $("#table-data").html();
+    function convert() {
+            convertHtmlToWord(table, "table");
+        }
+</script>
+</html>

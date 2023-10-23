@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "/yqyo2f7P5auz3MEV9Wyp409CuUUwV/swNkzpv7c3qA=",
+=======
+  "Hash": "g53aVr4am5bqYQAoGZiTwOugva5lQ3ngKu+5ScQCeu8=",
+>>>>>>> 492edf59bc817ee2fec97d7b3633011023d6b218
   "Source": "app",
   "BasePath": "_content/app",
   "Mode": "Default",
@@ -952,6 +956,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\favicon.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\wwwroot\\assets\\images\\free-demo.jpg",
       "SourceId": "app",
       "SourceType": "Discovered",
@@ -970,6 +975,9 @@
     },
     {
       "Identity": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\wwwroot\\assets\\images\\logo-icon.png",
+=======
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\wwwroot\\assets\\images\\logo-icon.png",
+>>>>>>> 492edf59bc817ee2fec97d7b3633011023d6b218
       "SourceId": "app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\wwwroot\\",
@@ -1003,12 +1011,16 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo-text.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\wwwroot\\assets\\images\\logo.png",
+=======
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\wwwroot\\assets\\images\\logos.png",
+>>>>>>> 492edf59bc817ee2fec97d7b3633011023d6b218
       "SourceId": "app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\wwwroot\\",
       "BasePath": "_content/app",
-      "RelativePath": "assets/images/logo.png",
+      "RelativePath": "assets/images/logos.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1017,7 +1029,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\logo.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logos.png"
     },
     {
       "Identity": "C:\\Users\\TRUNG\\Desktop\\QuanLyVatTu\\QuanLyVatTu\\QuanLyVatTu\\wwwroot\\assets\\images\\users\\1-old.jpg",
