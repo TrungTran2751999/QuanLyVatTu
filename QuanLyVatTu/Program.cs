@@ -48,7 +48,9 @@ builder.Services.AddAuthentication(item =>
 });
 //=======TAO COOKIE=========
 builder.Services.AddHttpContextAccessor();
+//=======DEPEDENCY INJECTION=============
 builder.Services.AddScoped<INhomVatTuService, NhomVatTuService>();
+builder.Services.AddScoped<INhaCungUngService, NhaCungUngService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

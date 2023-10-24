@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace app.Models;
 [Table("Users")]
-public class User{
+public class Users{
     [Key]
     [Column("Id")]
-    public long IdSystem{get;set;}
+    public long Id{get;set;}
     [Column("Guid")]
     public Guid? Guid{get;set;}
     [Column("UserName")]
@@ -15,6 +15,9 @@ public class User{
     public string? Password{get;set;}
     [Column("DepartmentId")]
     public long? DepartmentId{get;set;}
+
+    [ForeignKey("DepartmentId")]
+    public Departments? Department{get;set;}
     [Column("MainDepartmentId")]
     public long? MainDepartmentId{get;set;}
     [Column("Email")]

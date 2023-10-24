@@ -9,7 +9,11 @@ public class ApplicationDbContext : DbContext
     }
     public virtual DbSet<NhomVatTu> NhomVatTu{get;set;}
     public virtual DbSet<VatTu> VatTu{get;set;}
-    // public virtual DbSet<User> Users{get;set;}
+    public virtual DbSet<NhaCungUngVatTu> NhaCungUng{get;set;}
+
+    public virtual DbSet<PhieuNhanVatTu> PhieuNhanVatTu{get;set;}
+    public virtual DbSet<PhieuNhanVatTuChiTiet> PhieuNhanVatTuChiTiet{get;set;}
+
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
